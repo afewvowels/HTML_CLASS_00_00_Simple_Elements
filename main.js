@@ -1,7 +1,7 @@
 // Javascript file
 
 
-function myFunction( ){
+function myFunction(){
 	var active=0;
 	switch(active) {
 		case 0:
