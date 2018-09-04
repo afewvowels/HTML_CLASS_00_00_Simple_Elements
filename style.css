@@ -1,11 +1,22 @@
+/*
+	This is the only style of CSS commenting
+*/
+
+/* They can also be used in single-line comments */
+
 @charset "utf-8";
+
+body {
+	margin: 0px auto;
+}
 
 p {
 	background-color: red;
 	color: blue;
 	text-align: center;
+	margin: 0px auto;
 }
 
-#button_container {
+.button_container {
 	text-align: center;
 }
