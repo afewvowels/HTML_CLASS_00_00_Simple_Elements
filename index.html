@@ -15,12 +15,31 @@
 			It works for single and
 			multi-line comments
 		-->
-		<p>This is a paragraph tag</p>
+		<nav class="button_container">
+			<button type="button" onclick="refreshPage()">Reload Page</button>
+		</nav>
 		
-		<div id="button_container">
-			<button type="button" onclick="myFunction()">Click me!</button>
-		</div>
+		<section>
+			<p>This is a paragraph tag</p>
+			
+			<div class="button_container">
+				<button type="button" onclick="myFunction()">Click me!</button>
+			</div>
+			
+			<p id="demo">This text will change</p>
+		</section>
 		
-		<p id="demo">This text will change</p>
+		<!--
+			Structure tags, used to properly structure/section an HTML5 document
+			
+			<section></section>
+			<article></article>
+			<aside></aside>
+			<header></header>
+			<footer></footer>
+			<nav></nav>
+			
+			Only use divs to style grouped elements that do not fall into above categories of tags, div is lowest-priority grouping definition
+		 -->
 	</body>
 </html>
