@@ -20,3 +20,7 @@ p {
 .button_container {
 	text-align: center;
 }
+
+#menu {
+	float: auto;
+}
